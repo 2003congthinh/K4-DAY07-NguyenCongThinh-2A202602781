@@ -1,0 +1,32 @@
+Loaded 96 chunks from 5 files
+Corpus folder: data\ecommerce
+
+Q1: Thời gian hỗ trợ đổi trả hàng tại Tiki là bao nhiêu ngày?
+  Filter: {'audience': 'buyer'}
+  1. score=0.2455 doc_id=buyer-chinh-sach-bao-hanh :: ## Tiki bảo hành bằng các hình thức nào? Sản phẩm tại Tiki sẽ được bảo hành bằng 1 trong 4 hình thức sau:
+  2. score=0.2137 doc_id=buyer-chinh-sach-doi-tra-hoan-tien :: 4. Xin lưu ý rằng quyết định của Tiki sẽ dựa trên danh sách điều khoản của các điều kiện có hiệu lực tại thời điểm hoàn thành mua hàng thành
+  3. score=0.1702 doc_id=buyer-san-pham-han-che-doi-tra :: ## Danh mục sản phẩm không áp dụng đổi - trả theo nhu cầu - Thời trang nam/nữ: Đồ lót, phụ kiện đồ lót, đồ bơi. - Đồ chơi - Mẹ & Bé: Đồ lót,
+
+Q2: Sản phẩm bảo hành gửi về Tiki thì mất bao lâu để nhận lại?
+  Filter: {'audience': 'buyer'}
+  1. score=0.3730 doc_id=buyer-chinh-sach-doi-tra-hoan-tien :: ## Chính sách đổi trả – Các thông tin cần thiết khi yêu cầu đổi trả Để bảo vệ quyền lợi khách hàng và Tiki có cơ sở làm việc với các bộ phận
+  2. score=0.3045 doc_id=buyer-chinh-sach-bao-hanh :: ## Lưu ý Để đảm bảo quyền lợi khách hàng và Tiki có cơ sở làm việc với các bộ phận liên quan, tất cả yêu cầu bảo hành quý khách cần cung cấp
+  3. score=0.2605 doc_id=buyer-san-pham-han-che-doi-tra :: ## Danh mục sản phẩm không áp dụng đổi - trả theo nhu cầu - Thời trang nam/nữ: Đồ lót, phụ kiện đồ lót, đồ bơi. - Đồ chơi - Mẹ & Bé: Đồ lót,
+
+Q3: Nhà Bán cần lưu trữ video đóng gói hàng hóa trong bao lâu?
+  Filter: {'audience': 'seller'}
+  1. score=0.2412 doc_id=seller-faq-doi-tra-bao-hanh :: - Đối với hàng hóa có hạn sử dụng, hàng hóa có bao bì hoặc hàng hóa là thực phẩm khô: Khách hàng được phép yêu cầu đổi – trả sản phẩm theo C
+  2. score=0.2140 doc_id=seller-faq-doi-tra-bao-hanh :: ## Trường hợp Nhà Bán từ chối yêu cầu đổi – trả – bảo hành của Khách hàng mà không cung cấp được bằng chứng thỏa đáng trong thời gian quy đị
+  3. score=0.2107 doc_id=seller-fbt-quy-trinh-doi-tra-bao-hanh :: - Sản phẩm sai/hư hỏng: Đối tác vận chuyển sẽ trả hàng về kho Tiki. Nhà Bán không cần xử lý gì thêm.   - Nếu giao hàng thất bại: Tiki hỗ trợ
+
+Q4: Những nhóm sản phẩm nào không được đổi trả theo nhu cầu?
+  Filter: {'audience': 'buyer'}
+  1. score=0.3109 doc_id=buyer-chinh-sach-doi-tra-hoan-tien :: ## Chính sách đổi trả – Các thông tin cần thiết khi yêu cầu đổi trả Để bảo vệ quyền lợi khách hàng và Tiki có cơ sở làm việc với các bộ phận
+  2. score=0.1899 doc_id=buyer-chinh-sach-doi-tra-hoan-tien :: 4. Một số trường hợp đặc biệt do trở ngại khách quan dẫn đến Khách Hàng có yêu cầu đổi mới, hoàn tiền bị quá thời hạn đổi trả hoặc không thỏ
+  3. score=0.1881 doc_id=buyer-san-pham-han-che-doi-tra :: ## Lưu ý Chính sách áp dụng cho các đơn hàng đặt từ ngày 15/04/2024.
+
+Q5: Quy trình xử lý bảo hành của Nhà Bán gồm những bước nào?
+  Filter: {'audience': 'seller'}
+  1. score=0.2109 doc_id=seller-fbt-quy-trinh-doi-tra-bao-hanh :: ## Nguyên tắc chung - Đối với hàng hóa đủ điều kiện đổi – trả: Tiki lên đơn hàng mới theo đơn hàng đổi trả (C-return) và giao tới khách hàng
+  2. score=0.1473 doc_id=seller-faq-doi-tra-bao-hanh :: # Câu hỏi thường gặp về xử lý đổi - trả - bảo hành Bài viết tổng hợp các câu hỏi thường gặp liên quan đến việc đổi – trả – bảo hành trên Tik
+  3. score=0.1233 doc_id=seller-fbt-quy-trinh-doi-tra-bao-hanh :: ## Quy trình xử lý bảo hành - Bước 1: Tiki tiếp nhận, kiểm tra yêu cầu bảo hành của khách hàng, tạo mã khiếu nại (C-return) nêu rõ lý do khi
